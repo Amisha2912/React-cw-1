@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#root{
+    width:60%;
+    margin:15vh auto;
+    border-radius: 20px;
+    border:2px solid black;
+    padding:40px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
